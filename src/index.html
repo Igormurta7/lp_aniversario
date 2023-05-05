@@ -5,10 +5,121 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Meu aniversário!</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="styles/main.scss" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   </head>
   <body>
-    <img src="./images/bbq-side-ribs-gad718a0e4_1280.jpg" alt="" />
-    <script src="scripts/main.js"></script>
+    <header class="hero">
+      <div class="container">
+        <img
+          class="hero__logo"
+          src="./images/Screenshot_20221027_115424.jpg"
+          alt="Festa de aniversário"
+        />
+        <p class="hero__text">
+          A maior festa de aniversário da cidade começa em
+          <span id="contador"></span>
+        </p>
+        <div class="infos-bar">
+          <ul class="infos-bar__infos">
+            <li class="infos-bar__infos__item">
+              <b>Localização</b>
+              Arena MRV - Belo Horizonte
+            </li>
+            <li class="infos-bar__infos__item">
+              <b>Preço</b>
+              Amigos não pagam
+            </li>
+            <li class="infos-bar__infos__item">
+              <b>Quando</b>
+              07/01/2024 às 20:00
+            </li>
+          </ul>
+          <a href="#" class="button button--primary"> Garanta sua presença </a>
+        </div>
+      </div>
+    </header>
+    <section class="event event--frontend">
+      <div class="container" data-aos="zoom-in-right">
+        <div class="event__details">
+          <h2 class="event__details__title">Churrascão</h2>
+          <p class="event__details__description">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+            Aspernatur, molestias iure? Nihil tempore, temporibus, officiis
+            placeat molestiae incidunt excepturi non dolores libero inventore
+            amet. Expedita quas doloribus odit tempora eum?
+          </p>
+        </div>
+        <img
+          class="event__image"
+          src="./images/bbq-side-ribs-gad718a0e4_1280.jpg"
+          alt="Costelinha"
+        />
+      </div>
+    </section>
+    <section class="event event--ux-ui event--image-left">
+      <div class="container" data-aos="zoom-in-left">
+        <div class="event__details">
+          <h2 class="event__details__title">Muita cerveja</h2>
+          <p class="event__details__description">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+            Aspernatur, molestias iure? Nihil tempore, temporibus, officiis
+            placeat molestiae incidunt excepturi non dolores libero inventore
+            amet. Expedita quas doloribus odit tempora eum?
+          </p>
+        </div>
+        <img
+          class="event__image"
+          src="./images/beer-g0ebfb8912_1280.jpg"
+          alt="Cerveja"
+        />
+      </div>
+    </section>
+    <section class="event event--data-science">
+      <div class="container" data-aos="zoom-in-right">
+        <div class="event__details">
+          <h2 class="event__details__title">DJ pra quem é de DJ</h2>
+          <p class="event__details__description">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+            Aspernatur, molestias iure? Nihil tempore, temporibus, officiis
+            placeat molestiae incidunt excepturi non dolores libero inventore
+            amet. Expedita quas doloribus odit tempora eum?
+          </p>
+        </div>
+        <img
+          class="event__image"
+          src="./images/hand-g6ec314337_1280.jpg"
+          alt="DJ"
+        />
+      </div>
+    </section>
+    <section class="event event--backend event--image-left">
+      <div class="container" data-aos="zoom-in-left">
+        <div class="event__details">
+          <h2 class="event__details__title">
+            Show de rock pra quem é de show de rock
+          </h2>
+          <p class="event__details__description">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+            Aspernatur, molestias iure? Nihil tempore, temporibus, officiis
+            placeat molestiae incidunt excepturi non dolores libero inventore
+            amet. Expedita quas doloribus odit tempora eum?
+          </p>
+        </div>
+        <img
+          class="event__image"
+          src="./images/concert-gc9d6d2b21_1280.jpg"
+          alt="Show"
+        />
+      </div>
+    </section>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="/src/scripts/main.js"></script>
   </body>
 </html>
